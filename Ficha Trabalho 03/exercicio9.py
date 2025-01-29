@@ -2,9 +2,9 @@ nome = input("Insira o seu nome:\t")
 idade = int(input("Insira a sua idade:\t"))
 peso = float(input("Insira o seu peso:\t"))
 altura = float(input("Insira a sua altura:\t"))
- 
+
 imc = peso/(altura*altura)
- 
+
 if imc < 17:
     print("Muito abaixo do peso ideal")
 elif imc < 18.5:
