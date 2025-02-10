@@ -41,4 +41,4 @@ def imprimir_lista():
 
 def esvaziar_lista():
     lista.clear()  # Remove todos os elementos da lista
-    print("A lista foi esvaziada."
+    print("A lista foi esvaziada.")
