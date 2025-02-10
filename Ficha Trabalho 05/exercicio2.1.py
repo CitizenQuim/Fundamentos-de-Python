@@ -27,3 +27,18 @@ def remover_elemento(elemento):
 
 def tamanho_lista():
     print(f"A çista tem {len(lista)} elementos.") # len() retorna o tamanho da lista
+    
+
+#5- Imprimir os elementos da lista
+
+def imprimir_lista():
+    if lista:
+        print("Elementos da lista:", lista)
+    else:
+        print("A lista está vazia.")
+        
+#6- Esvaziar a lista
+
+def esvaziar_lista():
+    lista.clear()  # Remove todos os elementos da lista
+    print("A lista foi esvaziada."
