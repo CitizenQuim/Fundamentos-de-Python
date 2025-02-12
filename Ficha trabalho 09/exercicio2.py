@@ -14,12 +14,13 @@ print(Conspiracoes)
 
 # Adicionar Nova Conspiração e o seu valor
 
-Conspiracoes["Betelgeuse Supernova"] = 15
+Conspiracoes["Betelgeuse Supernova"] = 18
 
 
 
 
 # Remover (temporariamente) uma crença upsss...conspiração
+
 """
 del Conspiracoes["MK Ultra"]
 
@@ -28,10 +29,12 @@ del Conspiracoes["MK Ultra"]
 # a mais fixe de todas será...
 
 crenca_mais_fixe = max(Conspiracoes, key=Conspiracoes.get)
-crenca_mais_fixe = Conspiracoes[crenca_mais_fixe]
+crenca_value = Conspiracoes[crenca_mais_fixe]
 
-"""print(f"A minha crença mais fixe e (É VISIVEL A OLHO NÚ)'{crenca_mais_fixe}' e nesta lista tem o incrivel valor de {crenca_mais_fixe: .2f}")
 
-"""
+print(f"A minha crença mais fixe e (É VISIVEL A OLHO NÚ) {crenca_mais_fixe} e nesta lista tem o incrivel valor de {crenca_value: .2f}")
+
+
 
 print(Conspiracoes)
+

@@ -26,8 +26,8 @@ print(f"O preço do Prego é {preco_prego} euros.") """
 
 # Podemos usar menu.keys() para obter todas as chaves do dicionário
 
-"""print("Pratos disponíveis no Menu:")
-print(menu.keys())"""
+""" print("Pratos disponíveis no Menu:")
+print(menu.keys()) """
 
 # Passo 4: Adicionar "Ovos Rotos" ao menu com o preço de 10 euros
 
